@@ -50,6 +50,7 @@ search.addEventListener('submit', (e) => {
           break;
         case 'Mist':
           image.src = 'images/mist.png'
+          break;
         default:
           image.src = ''; // You can set a default image or leave it empty if there's none.
       }
